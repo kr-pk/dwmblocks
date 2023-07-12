@@ -23,7 +23,7 @@ typedef const struct {
 
 #ifdef CLICKABLE_BLOCKS
 #undef CLICKABLE_BLOCKS
-#define CLICKABLE_BLOCKS 1
+#define CLICKABLE_BLOCKS 0 // Default Value is 1....
 #else
 #define CLICKABLE_BLOCKS 0
 #endif
